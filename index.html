@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio | Computer Science</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">&lt;/&gt; MY PORTFOLIO</div>
+      <div class="nav-links">
+        <a href="#home">หน้าแรก</a>
+        <a href="#about">เกี่ยวกับฉัน</a>
+        <a href="#skills">ทักษะ</a>
+        <a href="#contact">ติดต่อ</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="tag">&lt; HELLO WORLD /&gt;</p>
+        <h1>สวัสดีครับ<br><span>ผมคือคนที่สนใจ Computer Science</span></h1>
+        <p>
+          เว็บไซต์แนะนำตัวที่สร้างขึ้นเพื่อฝึกพื้นฐาน HTML, CSS และ JavaScript
+          และเป็นโปรเจกต์สำหรับสะสมผลงานใน Portfolio
+        </p>
+        <a class="button" href="#about">ดูข้อมูลของฉัน</a>
+      </div>
+      <div class="code-card">
+        <div class="dots">● ● ●</div>
+        <pre><code>const student = {
+  interest: "Computer Science",
+  goal: "Software Developer",
+  learning: [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ]
+};</code></pre>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="section-label">01 / ABOUT</p>
+      <h2>เกี่ยวกับฉัน</h2>
+      <p class="description">
+        ผมสนใจด้านคอมพิวเตอร์และการเขียนโปรแกรม จึงเริ่มฝึกสร้างเว็บไซต์
+        และเรียนรู้การเขียนโค้ดจากโปรเจกต์เล็ก ๆ เพื่อพัฒนาทักษะของตัวเอง
+      </p>
+      <div class="cards">
+        <div class="card"><h3>🎯 เป้าหมาย</h3><p>พัฒนาทักษะการเขียนโปรแกรมและศึกษาต่อด้านวิทยาการคอมพิวเตอร์</p></div>
+        <div class="card"><h3>💡 ความสนใจ</h3><p>เว็บไซต์ โปรแกรม เกม และเทคโนโลยีใหม่ ๆ</p></div>
+        <div class="card"><h3>📚 กำลังเรียนรู้</h3><p>HTML, CSS, JavaScript และ Python เบื้องต้น</p></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="section-label">02 / SKILLS</p>
+      <h2>ทักษะ</h2>
+      <div class="skills">
+        <div><strong>HTML</strong><span>พื้นฐานโครงสร้างเว็บไซต์</span></div>
+        <div><strong>CSS</strong><span>ออกแบบและจัดรูปแบบหน้าเว็บ</span></div>
+        <div><strong>JavaScript</strong><span>เพิ่มการโต้ตอบให้เว็บไซต์</span></div>
+        <div><strong>Python</strong><span>พื้นฐานการเขียนโปรแกรม</span></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="section-label">03 / CONTACT</p>
+      <h2>ติดต่อ</h2>
+      <p>อีเมล: yourname@example.com</p>
+      <p>GitHub: github.com/yourusername</p>
+      <button class="button" onclick="showMessage()">กดเพื่อทดสอบ JavaScript</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 My Portfolio Project | Built with HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
