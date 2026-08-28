@@ -3,87 +3,298 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio | Computer Science</title>
+
+  <title>พีรวิชญ์ | Computer Science Portfolio</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="logo">&lt;/&gt; MY PORTFOLIO</div>
-      <div class="nav-links">
-        <a href="#home">หน้าแรก</a>
-        <a href="#about">เกี่ยวกับฉัน</a>
-        <a href="#skills">ทักษะ</a>
-        <a href="#contact">ติดต่อ</a>
+
+<header>
+  <nav class="navbar">
+
+    <div class="logo">
+      <span>&lt;/&gt;</span> PEERAWIT
+    </div>
+
+    <div class="nav-links">
+      <a href=" ">หน้าแรก</a >
+      <a href="#about">เกี่ยวกับฉัน</a >
+      <a href="#skills">ทักษะ</a >
+      <a href="#contact">ติดต่อ</a >
+    </div>
+
+  </nav>
+</header>
+
+
+<main>
+
+<!-- HERO -->
+<section id="home" class="hero">
+
+  <div class="hero-text">
+
+    <div class="tag">
+      &lt; HELLO WORLD /&gt;
+    </div>
+
+    <h1>
+      สวัสดีครับ 👋
+      <br>
+      <span>ผม พีรวิชญ์ แก้วมะณี</span>
+    </h1>
+
+    <h2>
+      Computer Science Student
+    </h2>
+
+    <p>
+      ผู้ที่สนใจด้านคอมพิวเตอร์ การเขียนโปรแกรม
+      การพัฒนาเว็บไซต์ และเทคโนโลยีใหม่ ๆ
+    </p >
+
+    <div class="buttons">
+      <a class="button" href="#about">
+        ดู Portfolio
+      </a >
+
+      <a class="button outline" href="#contact">
+        ติดต่อผม
+      </a >
+    </div>
+
+  </div>
+
+
+  <!-- PROFILE -->
+  <div class="profile-area">
+
+    <div class="glow"></div>
+
+    <div class="profile-card">
+
+      < img src="profile.jpg" alt="Profile">
+
+      <div class="profile-info">
+        <span>STUDENT</span>
+        <strong>Computer Science</strong>
       </div>
-    </nav>
-  </header>
 
-  <main>
-    <section id="home" class="hero">
-      <div class="hero-text">
-        <p class="tag">&lt; HELLO WORLD /&gt;</p>
-        <h1>สวัสดีครับ<br><span>ผมคือคนที่สนใจ Computer Science</span></h1>
-        <p>
-          เว็บไซต์แนะนำตัวที่สร้างขึ้นเพื่อฝึกพื้นฐาน HTML, CSS และ JavaScript
-          และเป็นโปรเจกต์สำหรับสะสมผลงานใน Portfolio
-        </p>
-        <a class="button" href="#about">ดูข้อมูลของฉัน</a>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="section">
+
+  <p class="section-label">
+    01 / ABOUT ME
+  </p >
+
+  <h2>เกี่ยวกับฉัน</h2>
+
+  <p class="description">
+    ผมสนใจด้านคอมพิวเตอร์และการเขียนโปรแกรม
+    จึงเริ่มฝึกสร้างเว็บไซต์และเรียนรู้การเขียนโค้ด
+    ผ่านโปรเจกต์ต่าง ๆ เพื่อพัฒนาทักษะของตัวเอง
+    และเตรียมความพร้อมสำหรับการศึกษาต่อ
+    ในสาขาวิทยาการคอมพิวเตอร์
+  </p >
+
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="icon">🎯</div>
+      <h3>เป้าหมาย</h3>
+      <p>
+        พัฒนาทักษะการเขียนโปรแกรม
+        และศึกษาต่อด้านวิทยาการคอมพิวเตอร์
+      </p >
+    </div>
+
+    <div class="card">
+      <div class="icon">💻</div>
+      <h3>ความสนใจ</h3>
+      <p>
+        เว็บไซต์ โปรแกรม เกม
+        และเทคโนโลยีใหม่ ๆ
+      </p >
+    </div>
+
+    <div class="card">
+      <div class="icon">🚀</div>
+      <h3>กำลังพัฒนา</h3>
+      <p>
+        เรียนรู้การสร้างโปรเจกต์
+        และพัฒนาทักษะด้าน Programming
+      </p >
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+
+  <p class="section-label">
+    02 / SKILLS
+  </p >
+
+  <h2>ทักษะด้านคอมพิวเตอร์</h2>
+
+
+  <div class="skills">
+
+    <div class="skill">
+      <div class="skill-top">
+        <strong>HTML</strong>
+        <span>85%</span>
       </div>
-      <div class="code-card">
-        <div class="dots">● ● ●</div>
-        <pre><code>const student = {
-  interest: "Computer Science",
-  goal: "Software Developer",
-  learning: [
-    "HTML",
-    "CSS",
-    "JavaScript"
-  ]
-};</code></pre>
+
+      <div class="bar">
+        <div style="width:85%"></div>
       </div>
-    </section>
 
-    <section id="about" class="section">
-      <p class="section-label">01 / ABOUT</p>
-      <h2>เกี่ยวกับฉัน</h2>
-      <p class="description">
-        ผมสนใจด้านคอมพิวเตอร์และการเขียนโปรแกรม จึงเริ่มฝึกสร้างเว็บไซต์
-        และเรียนรู้การเขียนโค้ดจากโปรเจกต์เล็ก ๆ เพื่อพัฒนาทักษะของตัวเอง
-      </p>
-      <div class="cards">
-        <div class="card"><h3>🎯 เป้าหมาย</h3><p>พัฒนาทักษะการเขียนโปรแกรมและศึกษาต่อด้านวิทยาการคอมพิวเตอร์</p></div>
-        <div class="card"><h3>💡 ความสนใจ</h3><p>เว็บไซต์ โปรแกรม เกม และเทคโนโลยีใหม่ ๆ</p></div>
-        <div class="card"><h3>📚 กำลังเรียนรู้</h3><p>HTML, CSS, JavaScript และ Python เบื้องต้น</p></div>
+      <p>โครงสร้างเว็บไซต์</p >
+    </div>
+
+
+    <div class="skill">
+      <div class="skill-top">
+        <strong>CSS</strong>
+        <span>75%</span>
       </div>
-    </section>
 
-    <section id="skills" class="section">
-      <p class="section-label">02 / SKILLS</p>
-      <h2>ทักษะ</h2>
-      <div class="skills">
-        <div><strong>HTML</strong><span>พื้นฐานโครงสร้างเว็บไซต์</span></div>
-        <div><strong>CSS</strong><span>ออกแบบและจัดรูปแบบหน้าเว็บ</span></div>
-        <div><strong>JavaScript</strong><span>เพิ่มการโต้ตอบให้เว็บไซต์</span></div>
-        <div><strong>Python</strong><span>พื้นฐานการเขียนโปรแกรม</span></div>
+      <div class="bar">
+        <div style="width:75%"></div>
       </div>
-    </section>
 
-    <section id="contact" class="section contact">
-      <p class="section-label">03 / CONTACT</p>
-      <h2>ติดต่อ</h2>
-      <p>อีเมล: wanok527@gmail.com
-       เบอร์ 0810340765</p>
-      <p>GitHub: github.com/yourusername</p>
-      <button class="button" onclick="showMessage()">กดเพื่อทดสอบ JavaScript</button>
-    </section>
-  </main>
+      <p>ออกแบบและตกแต่งเว็บไซต์</p >
+    </div>
 
-  <footer>
-    <p>© 2026 สร้างมาเพื่อแสดงผลงานPortfolio  by 
-      พีรวิชญ์ แก้วมะณี</p>
-  </footer>
 
-  <script src="script.js"></script>
+    <div class="skill">
+      <div class="skill-top">
+        <strong>JavaScript</strong>
+        <span>60%</span>
+      </div>
+
+      <div class="bar">
+        <div style="width:60%"></div>
+      </div>
+
+      <p>เพิ่มความสามารถให้เว็บไซต์</p >
+    </div>
+
+
+    <div class="skill">
+      <div class="skill-top">
+        <strong>Python</strong>
+        <span>55%</span>
+      </div>
+
+      <div class="bar">
+        <div style="width:55%"></div>
+      </div>
+
+      <p>พื้นฐานการเขียนโปรแกรม</p >
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- PROJECT -->
+<section class="section">
+
+  <p class="section-label">
+    03 / PROJECT
+  </p >
+
+  <h2>โปรเจกต์</h2>
+
+  <div class="project-card">
+
+    <div class="project-number">
+      01
+    </div>
+
+    <div>
+      <h3>Personal Portfolio Website</h3>
+
+      <p>
+        เว็บไซต์ Portfolio ส่วนตัว
+        สร้างด้วย HTML, CSS และ JavaScript
+        เพื่อฝึกพัฒนาทักษะด้าน Web Development
+      </p >
+
+      <div class="tech">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+
+  <p class="section-label">
+    04 / CONTACT
+  </p >
+
+  <h2>ติดต่อ</h2>
+
+  <div class="contact-box">
+
+    <p>
+      📧 <strong>Email</strong><br>
+      wanok527@gmail.com
+    </p >
+
+    <p>
+      📱 <strong>โทรศัพท์</strong><br>
+      081-034-0765
+    </p >
+
+    <p>
+      💻 <strong>GitHub</strong><br>
+      github.com/yourusername
+    </p >
+
+  </div>
+
+  <button class="button" onclick="showMessage()">
+    กดเพื่อทดสอบ JavaScript
+  </button>
+
+</section>
+
+</main>
+
+
+<footer>
+  <p>
+    © 2026 | Portfolio by
+    <strong>พีรวิชญ์ แก้วมะณี</strong>
+  </p >
+</footer>
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
